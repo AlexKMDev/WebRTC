@@ -13,7 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Anakros/webrtc-ios-dynamic.git", :tag => s.version }
   s.platform     = :ios, "8.0"
 
-  s.source_files        = "WebRTC.framework/Headers/**/*.h"
-  s.public_header_files = "WebRTC.framework/Headers/**/*.h"
   s.vendored_frameworks = "WebRTC.framework"
 end
