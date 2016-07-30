@@ -1,5 +1,9 @@
 # WebRTC iOS framework
 
+Add to Podfile `pod "WebRTC"` to install it.
+
+## Information
+
 Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.sh` script.
 
 Following patches applied:
