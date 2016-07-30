@@ -23,24 +23,6 @@ Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/bu
 
 Following patches applied:
 ```diff
-diff --git a/webrtc/build/ios/build_ios_libs.sh b/webrtc/build/ios/build_ios_libs.sh
-index 772fc68..6562b08 100755
---- a/webrtc/build/ios/build_ios_libs.sh
-+++ b/webrtc/build/ios/build_ios_libs.sh
-@@ -13,6 +13,10 @@
- # Exit on errors.
- set -e
-
-+plistbuddy() {
-+ /usr/libexec/PlistBuddy "$@"
-+}
-+
- # Globals.
- SCRIPT_DIR=$(cd $(dirname $0) && pwd)
- WEBRTC_BASE_DIR=${SCRIPT_DIR}/../../..
-```
-
-```diff
 diff --git a/webrtc/build/common.gypi b/webrtc/build/common.gypi
 index 36a2dae..1332809 100644
 --- a/webrtc/build/common.gypi
