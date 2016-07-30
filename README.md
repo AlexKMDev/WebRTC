@@ -1,6 +1,6 @@
 # WebRTC iOS library
 
-Build from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.sh` script.
+Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.sh` script.
 
 Following patches applied:
 ```diff
