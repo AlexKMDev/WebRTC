@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://webrtc.org/"
   s.license      = "BSD"
   s.author       = "Google Inc."
-  s.source       = { :git => "https://github.com/Anakros/webrtc-ios-dynamic.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/Anakros/WebRTC-iOS.git", :tag => s.version }
   s.platform     = :ios, "8.0"
 
   s.vendored_frameworks = "WebRTC.framework"
