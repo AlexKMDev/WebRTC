@@ -2,6 +2,9 @@
 
 Add to Podfile `pod "WebRTC"` to install it.
 
+Or `github "Anakros/WebRTC-iOS"` to Cartfile 
+>You can only use binary release, because full WebRTC repository takes ~12Gb of space
+
 ## Information
 
 Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.sh` script.
