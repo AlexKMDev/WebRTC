@@ -1,4 +1,4 @@
-# WebRTC iOS library
+# WebRTC iOS framework
 
 Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.sh` script.
 
