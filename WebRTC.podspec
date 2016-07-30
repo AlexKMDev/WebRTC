@@ -8,11 +8,12 @@ Pod::Spec.new do |s|
     APIs.
                    DESC
   s.homepage     = "http://webrtc.org/"
-  s.license      = { :type => "BSD", :file => "LICENSE" }
-  s.author    = "Google Inc."
-
+  s.license      = "BSD"
+  s.author       = "Google Inc."
+  s.source       = { :git => "https://github.com/Anakros/webrtc-ios-dynamic.git", :tag => s.version }
   s.platform     = :ios, "8.0"
 
+  s.source_files        = "WebRTC.framework/Headers/**/*.h"
   s.public_header_files = "WebRTC.framework/Headers/**/*.h"
   s.vendored_frameworks = "WebRTC.framework"
 end
