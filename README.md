@@ -1,5 +1,8 @@
 # WebRTC iOS framework
 
+![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=2592000) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=2592000)
+![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=2592000)
+
 Add to Podfile `pod "WebRTC"` to install it.
 
 Or `github "Anakros/WebRTC-iOS"` to Cartfile 
