@@ -3,9 +3,14 @@
 ![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=2592000) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=2592000)
 ![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=2592000)
 
-Add to Podfile `pod "WebRTC"` to install it.
+# Installation
 
-Or `github "Anakros/WebRTC-iOS"` to Cartfile 
+__Cocoapods__: add ``pod "WebRTC"`` to Podfile
+
+__Carthage__: add `github "Anakros/WebRTC-iOS"` to Cartfile
+
+__Manual__: just download framework from [latest release](https://github.com/Anakros/WebRTC-iOS/releases/latest) and copy it to your project
+
 >You can only use binary release, because full WebRTC repository takes ~12Gb of space
 
 ## Usage
