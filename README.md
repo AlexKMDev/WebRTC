@@ -5,7 +5,7 @@
 
 # Installation
 
-__Cocoapods__: add `pod "WebRTC", ">= 13641.0.06bfe1f"` to Podfile
+__Cocoapods__: add `pod "WebRTC"` to Podfile
 
 __Carthage__: add `github "Anakros/WebRTC-iOS"` to Cartfile
 
