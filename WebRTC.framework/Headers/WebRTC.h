@@ -9,7 +9,6 @@
  */
 
 #import <WebRTC/RTCAVFoundationVideoSource.h>
-#import <WebRTC/RTCAudioSource.h>
 #import <WebRTC/RTCAudioTrack.h>
 #import <WebRTC/RTCCameraPreviewView.h>
 #import <WebRTC/RTCConfiguration.h>
@@ -24,7 +23,6 @@
 #import <WebRTC/RTCLogging.h>
 #import <WebRTC/RTCMacros.h>
 #import <WebRTC/RTCMediaConstraints.h>
-#import <WebRTC/RTCMediaSource.h>
 #import <WebRTC/RTCMediaStream.h>
 #import <WebRTC/RTCMediaStreamTrack.h>
 #import <WebRTC/RTCMetrics.h>
