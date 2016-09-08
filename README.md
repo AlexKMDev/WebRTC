@@ -1,7 +1,7 @@
 # WebRTC iOS framework
 
-![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=2592000) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=2592000)
-![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=2592000)
+![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=100) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=100)
+![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=100)
 
 # Installation
 
@@ -24,6 +24,10 @@ import WebRTC
 ```objc
 @import WebRTC;
 ```
+
+## Bitcode
+
+Framework doesn't support Bitcode for now. So you should disable it in the project build settings.
 
 ## Information
 
