@@ -3,6 +3,14 @@
 ![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=100) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=100)
 ![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=100)
 
+# Contents
+
+- [Installation](#installation)
+  - [Unstable versions](#unstable-versions)
+- [Usage](#usage)
+- [Bitcode](#bitcode)
+- [Information](#information)
+
 # Installation
 
 __Cocoapods__ (add to Podfile):
@@ -23,7 +31,7 @@ __Manual__: just download framework from [the latest release](https://github.com
 
 ## Unstable versions
 
-__Cocoapods__ (will install specified unstable version or any higher version):
+__Cocoapods__ (will install specified unstable version or _any_ higher version):
 ```ruby
 pod "WebRTC", ">= 14093.0.0-master"
 ```
