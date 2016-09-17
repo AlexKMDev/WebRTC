@@ -36,7 +36,7 @@ __Cocoapods__ (will install specified unstable version or _any_ higher version):
 pod "WebRTC", ">= 14093.0.0-master"
 ```
 
-__Carthage__ (there is no way to auto-update to the latest unstable version at the current moment, so you should specify exact version tag):
+__Carthage__ (there is no way to auto-update to the latest unstable version at the current moment, so you should specify [corresponding version tag](https://github.com/Anakros/WebRTC-iOS/tags)):
 ```
 github "Anakros/WebRTC-iOS" "14093.0.0-master"
 ```
