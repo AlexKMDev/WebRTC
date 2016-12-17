@@ -28,7 +28,7 @@ __Carthage__ (add to Cartfile):
 github "Anakros/WebRTC"
 ```
 
-__Manual__: just download framework from [the latest release](https://github.com/Anakros/WebRTC-iOS/releases/latest) and copy it to your project
+__Manual__: just download framework from [the latest release](https://github.com/Anakros/WebRTC/releases/latest) and copy it to your project
 
 >You can only use the binary release, because the whole WebRTC repository takes ~12Gb of disk space
 
@@ -39,9 +39,9 @@ __Cocoapods__ (will install specified unstable version or _any_ higher version):
 pod "WebRTC", ">= 56.0.14835-beta"
 ```
 
-__Carthage__ (there is no way to auto-update to the latest unstable version at the current moment, so you should specify [corresponding version tag](https://github.com/Anakros/WebRTC-iOS/tags)):
+__Carthage__ (there is no way to auto-update to the latest unstable version at the current moment, so you should specify [corresponding version tag](https://github.com/Anakros/WebRTC/tags)):
 ```
-github "Anakros/WebRTC-iOS" "56.0.14835-beta"
+github "Anakros/WebRTC" "56.0.14835-beta"
 ```
 
 # Usage
