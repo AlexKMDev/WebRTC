@@ -22,6 +22,9 @@ __Cocoapods__ (add to Podfile):
 pod "WebRTC"
 ```
 
+Make sure to disable Bitcode if you are hitting linker errors:
+Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then disable it.
+
 __Carthage__ (add to Cartfile):
 
 ```
