@@ -15,15 +15,13 @@
 - [Links](#links)
 
 # Installation
+Check the [Bitcode](#bitcode) section first to avoid linker errors!
 
 __Cocoapods__ (add to Podfile):
 
 ```ruby
 pod "WebRTC"
 ```
-
-Make sure to disable Bitcode if you are hitting linker errors:
-Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then disable it.
 
 __Carthage__ (add to Cartfile):
 
@@ -71,7 +69,9 @@ NSLog(@"%d", RTCInitializeSSL());
 
 # Bitcode
 
-Bitcode isn't supported in the upstream for now. So you should disable it in the project build settings.
+Bitcode isn't supported in the upstream for now. So you should disable it:
+
+Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then disable it.
 
 # Information
 
