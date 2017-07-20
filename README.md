@@ -15,6 +15,7 @@
 - [Links](#links)
 
 # Installation
+Check the [Bitcode](#bitcode) section first to avoid linker errors!
 
 __Cocoapods__ (add to Podfile):
 
@@ -68,7 +69,9 @@ NSLog(@"%d", RTCInitializeSSL());
 
 # Bitcode
 
-Bitcode isn't supported in the upstream for now. So you should disable it in the project build settings.
+Bitcode isn't supported in the upstream for now. So you should disable it:
+
+Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then disable it.
 
 # Information
 
