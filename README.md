@@ -1,5 +1,8 @@
 # WebRTC iOS framework
 
+![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=100) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=100)
+![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=100)
+
 [__!__] Please report all WebRTC related (not specific to this binary build) bugs and questions to [discussion group](https://groups.google.com/forum/#!forum/discuss-webrtc) or [official bug tracker](https://bugs.chromium.org/p/webrtc/issues/list)
 
 # Contents
