@@ -59,7 +59,7 @@ Go to your project's settings and find the *Build settings* tab, check *All* and
 
 # Information
 
-Built from `https://chromium.googlesource.com/external/webrtc/` using `webrtc/build/ios/build_ios_libs.py` script with following modifications (to enable x86 architecture):
+Built from `https://chromium.googlesource.com/external/webrtc/` using `tools_webrtc/ios/build_ios_libs.py` script with following modifications (to enable x86 architecture):
 
 ```diff
 diff --git a/tools_webrtc/ios/build_ios_libs.py b/tools_webrtc/ios/build_ios_libs.py
