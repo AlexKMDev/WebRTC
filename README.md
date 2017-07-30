@@ -1,19 +1,26 @@
 # WebRTC iOS framework
 
-[__!!!__] Please report all WebRTC related (not specific to this binary build) bugs and questions to [discussion group](https://groups.google.com/forum/#!forum/discuss-webrtc) or [official bug tracker](https://bugs.chromium.org/p/webrtc/issues/list)
+![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=100) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=100)
+![](https://img.shields.io/cocoapods/l/WebRTC.svg?maxAge=100)
+
+[__!__] Please report all WebRTC related (not specific to this binary build) bugs and questions to [discussion group](https://groups.google.com/forum/#!forum/discuss-webrtc) or [official bug tracker](https://bugs.chromium.org/p/webrtc/issues/list)
 
 # Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Bitcode](#bitcode)
 - [Information](#information)
 - [Links](#links)
 
 # Installation
-Check the [Bitcode](#bitcode) section first to avoid linker errors!
 
-__Cocoapods__ (add to Podfile):
+[__!__] Bitcode is supported by the upstream, but Google source code builder (GN) produces ~700Mb binary with enabled bitcode, so it's hardly possible to distribute as a framework via CocoaPods/Carthage and that's why bitcode is __disabled__ in my build. Follow corresponding issue there: https://bugs.chromium.org/p/webrtc/issues/detail?id=5085
+
+Make sure to disable bitcode for your project: Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then set it to __No__.
+
+If you encounter linker errors, try to add the framework to [embedded binaries section](https://github.com/Anakros/WebRTC/issues/18#issuecomment-271535794).
+
+__CocoaPods__ (add to Podfile):
 
 ```ruby
 pod "WebRTC"
@@ -50,12 +57,6 @@ NSString *device = [UIDevice stringForDeviceType:[UIDevice deviceType]];
 NSLog(@"%@", device);
 NSLog(@"%d", RTCInitializeSSL());
 ```
-
-# Bitcode
-
-Bitcode isn't supported in the upstream for now. So you should disable it:
-
-Go to your project's settings and find the *Build settings* tab, check *All* and search for *bitcode*, then disable it.
 
 # Information
 
