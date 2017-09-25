@@ -9,6 +9,8 @@
  */
 
 #import <WebRTC/RTCAVFoundationVideoSource.h>
+#import <WebRTC/RTCAudioSession.h>
+#import <WebRTC/RTCAudioSessionConfiguration.h>
 #import <WebRTC/RTCAudioSource.h>
 #import <WebRTC/RTCAudioTrack.h>
 #import <WebRTC/RTCCameraVideoCapturer.h>
@@ -27,6 +29,7 @@
 #import <WebRTC/RTCFileLogger.h>
 #import <WebRTC/RTCIceCandidate.h>
 #import <WebRTC/RTCIceServer.h>
+#import <WebRTC/RTCIntervalRange.h>
 #import <WebRTC/RTCLegacyStatsReport.h>
 #import <WebRTC/RTCLogging.h>
 #import <WebRTC/RTCMacros.h>
@@ -47,6 +50,7 @@
 #import <WebRTC/RTCSessionDescription.h>
 #import <WebRTC/RTCTracing.h>
 #import <WebRTC/RTCVideoFrame.h>
+#import <WebRTC/RTCVideoFrameBuffer.h>
 #import <WebRTC/RTCVideoRenderer.h>
 #import <WebRTC/RTCVideoSource.h>
 #import <WebRTC/RTCVideoTrack.h>
