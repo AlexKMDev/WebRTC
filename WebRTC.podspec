@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
+  s.source_files = "WebRTC.framework/Headers/**/*.h"
   s.public_header_files = "WebRTC.framework/Headers/**/*.h"
   s.vendored_frameworks = "WebRTC.framework"
 end
