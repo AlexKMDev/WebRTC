@@ -1,3 +1,9 @@
+# Deprecated!
+
+Google now provides the official builds: 
+* https://cocoapods.org/pods/GoogleWebRTC
+* https://webrtc.org/native-code/ios/
+
 # WebRTC iOS framework
 
 ![](https://img.shields.io/cocoapods/v/WebRTC.svg?maxAge=100) ![](https://img.shields.io/cocoapods/dw/WebRTC.svg?maxAge=100)
